@@ -1,21 +1,9 @@
-# bun-react-template
+# Terminal Webpage
 
-To install dependencies:
+I was bored and wanted to see what was up with bun. It is just pretty normal, I'm sure this is because it was such a lightweight program though.
 
-```bash
-bun install
-```
+Install:
+`bun install`
 
-To start a development server:
-
-```bash
-bun dev
-```
-
-To run for production:
-
-```bash
-bun start
-```
-
-This project was created using `bun init` in bun v1.2.16. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+Development Server:
+`bun dev`
