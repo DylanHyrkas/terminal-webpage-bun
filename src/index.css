@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap");
+
+:root {
+  font-family: "Fira Code", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.5;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #282828;
+}
+
+.app {
+  padding: 1rem;
+}
+
+.terminal-line {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  font-weight: 600;
+}
+
+.arrow {
+  color: #98971a;
+  margin-right: 0.5rem;
+  font-weight: 700;
+}
+
+.tilde {
+  color: #689d6a;
+  margin-right: 0.5rem;
+}
+
+.cursor {
+  display: inline-block;
+  background-color: white;
+  height: 1.2em;
+  width: 0.5em;
+  animation: blink 1s infinite step-end;
+  margin-left: 2px;
+  vertical-align: middle;
+}
+
+@keyframes blink {
+  0%,
+  50% {
+    opacity: 1;
+  }
+  50.1%,
+  100% {
+    opacity: 0;
+  }
+}
