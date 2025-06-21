@@ -7,3 +7,5 @@ Install:
 
 Development Server:
 `bun dev`
+
+The theme is basically [Gruvbox](https://github.com/morhetz/gruvbox)
